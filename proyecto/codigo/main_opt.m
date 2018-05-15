@@ -8,12 +8,12 @@ clear
 close all
 clc
 
-iteration = 3;
+iteration = 100;                % iteration to analize
 
 %% Dat5a location
 im_velocity = sprintf('./ansys_data/%i/velocity.csv',iteration);
 im_trajectories = sprintf('./ansys_data/%i/trajectories.txt',iteration);
-im_pts = sprintf('./Pruning/It_%i',iteration);
+im_pts = sprintf('./Clipping/It_%i',iteration);
 im_pres = sprintf('./ansys_data/%i/pressure.csv',iteration);
 
 
